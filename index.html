@@ -185,6 +185,8 @@ footer {
 .hero-content{
     background-color: #3d3e4154;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
   align-items: center;
   
@@ -200,16 +202,18 @@ footer {
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
   color: #cce5fb;
 }
 
 .hero-content p {
+    display: flex;
   font-size: 22px;
   font-weight: 300;
   text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
   justify-content: center;
   align-items: center;
-  display: flex;
+  /* display: flex; */
   color: #f1f6fb;
 }
     
@@ -243,6 +247,11 @@ footer {
         <div class="hero-content">
             <h1>Abhyuday Art Classes</h1>
             <p>Unleash your creativity with professional art training</p>
+            <a href="classes.html">
+        <button style="margin-top: 20px; padding: 14px 32px; font-size: 20px; background-color: #2a3b4e; color: #cce5fb; border: none; border-radius: 8px; cursor: pointer; box-shadow: 1px 1px 8px #222;">
+            Explore Classes
+        </button>
+    </a>
         </div>
     </section>
 
